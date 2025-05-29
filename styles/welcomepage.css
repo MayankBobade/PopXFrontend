@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* New container for positioning */
+.welcomeContainer{
+  position: relative;
+   bottom: -50%;
+}
+
+b {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #2c2c2c;
+  text-align: left;
+}
+
+#welcomeSentence {
+  font-size: 14px;
+  color: #7d7d7d;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.WelcomeButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Button & link styling */
+#createAccount, #login {
+  position: relative;
+  border: none;
+  padding: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 46px;
+}
+
+#createAccount a, #login a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+#createAccount {
+  background-color: #8246f3;
+   color: #ffffff !important;
+}
+
+#createAccount a {
+  color: #ffffff !important;
+}
+
+#login {
+  background-color: #ede2ff;
+}
+
+#login a {
+  color: #8246f3 !important;
+}
+
