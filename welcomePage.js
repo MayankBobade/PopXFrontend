@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import './styles/welcomePage.css';
+import './styles/welcomepage.css';
 import { Link } from "react-router-dom";
 
 
