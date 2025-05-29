@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import validator from "validator";
 import { Link } from "react-router-dom";
-import "./styles/CreateAccount.css";
+import "./styles/createAccount.css";
 import { useNavigate } from "react-router-dom";
 
 export const CreateAccount = () => {
